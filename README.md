@@ -19,14 +19,17 @@ When you don't want to use Docker as the basis for your running environment, you
 - Protobuf PHP extension （If you need to use gRPC Server of Client）
 
 # 用composer安装
-$ git clone https://github.com/hxs9712/hyperf-chat-admin-api.git
-$ cd hyperf-chat-admin-api
-$ composer install
+```bash
+git clone https://github.com/hxs9712/hyperf-chat-admin-api.git
 
-Once installed, you can run the server immediately using the command below.
+cd hyperf-chat-admin-api
 
-$ php bin/hyperf.php start
-
-This will start the cli-server on port `9501`, and bind it to all network interfaces. You can then visit the site at `http://localhost:9501/`
+composer install
+```
+安装后，你可用命令运行
+```bash
+php bin/hyperf.php start
+```
+运行后你可以在浏览器上查看效果，链接 `http://localhost:9501/`
 
 which will bring up Hyperf default home page.
