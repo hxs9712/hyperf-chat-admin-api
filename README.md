@@ -26,7 +26,7 @@ cd hyperf-chat-admin-api
 
 composer install
 ```
-安装后，你可用命令运行
+安装后，你可用命令运行，记得修改env配置文件
 ```bash
 php bin/hyperf.php start
 ```
