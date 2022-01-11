@@ -31,5 +31,6 @@ composer install
 php bin/hyperf.php start
 ```
 运行后你可以在浏览器上查看效果，链接 `http://localhost:9501/`
+
 数据库SQL文件在根目录下，名字为hyperf-chat.sql
-which will bring up Hyperf default home page.
+
